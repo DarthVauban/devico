@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    /* margin: 0 auto; */
+}
+
+.left-box {
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.central-box {
+    background-color:blueviolet;
+    width: 100%;
+    height: 80%;
+}
+
+.double-box {
+    display: flex;
+    width: 100%;
+    height: 10%
+}
+
+.box-items {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+#item-1 {
+    background-color: blue;
+}
+
+#item-2{ 
+    background-color: green;
+}
+
+#item-3 {
+    background-color: chocolate;
+}
+
+#item-4 {
+    background-color: burlywood;
+}
+
